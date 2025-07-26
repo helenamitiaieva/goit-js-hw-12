@@ -22,11 +22,18 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  color: #fff; 
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, rgba(164, 116, 81, 1.000) 0.000%, rgba(156, 152, 129, 1.000) 16.667%, rgba(115, 160, 157, 1.000) 33.333%, rgba(59, 137, 154, 1.000) 50.000%, rgba(9, 91, 121, 1.000) 66.667%, rgba(0, 40, 71, 1.000) 83.333%, rgba(0, 1, 22, 1.000) 100.000%);
+  padding: 20px;
 }
 
 main {
+  max-width: 1200px;
+  margin: 0 auto;
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
 }
